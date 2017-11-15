@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
     fscc_handle h;
     struct fscc_registers r;
     char idata[DATA_LENGTH];
-    unsigned bytes_stored = 0;
+    size_t bytes_stored = 0;
     unsigned bytes_read = 0;
     unsigned total_bytes_read = 0;
     int e = 0;
